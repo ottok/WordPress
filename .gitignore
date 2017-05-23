@@ -1,3 +1,6 @@
+# Composer itself
+composer.lock
+
 # WordPress core is installed by Composer
 htdocs/wordpress
 htdocs/.htaccess
