@@ -1,15 +1,15 @@
 ###
 # Configuration for Vagrant
 ###
-name: wordpress
-#production:
+name: wceu2017-demo
+production:
   # This is used to automatically fetch data from a staging/production environment
-  #domain: example.seravo.com
+  domain: wceu2017-demo.seravo.com
   #ssh_port: 12345
-  #url: https://example.seravo.com
+  url: https://wceu2017-demo.seravo.com
 development:
   # Domains are automatically mapped to Vagrant with /etc/hosts modifications
   domains:
-    - wordpress.local
+    - wceu2017-demo.local
   # If you want to use zeroconf (.local domains) in your network you can use this.
   #avahi: true
