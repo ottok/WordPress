@@ -43,7 +43,7 @@ function wp_install( $blog_title, $user_name, $user_email, $public, $deprecated 
   update_option('blogname', $blog_title);
   update_option('admin_email', $user_email);
   update_option('blog_public', $public);
-  update_option('blogdescription',__('Uusi WP-palvelu.fi -sivusto'));
+  update_option('blogdescription',__('WCEU 2017 demo site'));
 
   $guessurl = wp_guess_url();
 
@@ -187,10 +187,7 @@ function wp_install_defaults( $user_id ) {
 		$first_post = str_replace( 'SITE_URL', esc_url( network_home_url() ), $first_post );
 		$first_post = str_replace( 'SITE_NAME', get_current_site()->site_name, $first_post );
 	} else {
-    $first_post = __('<p>Hienoa, että valitsit palvelumme WP-palvelu.fi:n!</p>
-<p>Voit aloittaa <a href="/wp-login.php">kirjautumalla sisälle</a>.</p>
-<p>Saat apua kysymyksiin lukemalla: <a href="https://wp-palvelu.fi/ohjeet/">wp-palvelu.fi/ohjeet/</a></p>
-<p><img class="wp-image-6 alignnone" src="https://wp-palvelu.fi/wp-palvelu-logo-blue.png" alt="wp-palvelu-logo" width="237" height="50" /></p>');
+    $first_post = __('<p>Thanks for visiting our demo!</p>');
 	}
 
 	$wpdb->insert( $wpdb->posts, array(
