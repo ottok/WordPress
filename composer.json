@@ -71,9 +71,11 @@
     "wpackagist-plugin/debug-bar-slow-actions": "*",
     "wpackagist-plugin/debug-bar-transients": "*",
     "wpackagist-plugin/query-monitor": "*",
+    "wpackagist-plugin/fakerpress": "*",
 
     "wpackagist-theme/twentyseventeen": "*",
-    "aucor/dynamic-mo-loader": "^1.1"
+    "aucor/dynamic-mo-loader": "^1.1",
+    "jokkedk/webgrind": "^1.5"
   },
   "extra": {
     "installer-paths": {
