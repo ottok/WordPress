@@ -1,13 +1,18 @@
 -![Seravo.com](https://seravo.com/wp-content/themes/seravo/images/seravo-banner-808x300.png)
 
-# Seravo WordPress
-[![Build Status](https://travis-ci.org/Seravo/wordpress.svg?branch=master)](https://travis-ci.org/Seravo/wordpress)
+# WCEU Demo Site (based on Seravo WordPress project template)
 
-Brought to you by [Seravo.com](https://seravo.com).
+## Initial setup
 
-A WordPress project layout for use with Git, Composer and Nginx. It also includes a config for an opinionated Vagrant box.
+Import the official WordPress theme unit test data:
+```
+curl -O https://wpcom-themes.svn.automattic.com/demo/theme-unit-test-data.xml
+wp plugin install wordpress-importer --activate
+wp import ./theme-unit-test-data.xml --authors=create
+```
 
-This same project layout is used by default on all [Seravo.com](https://seravo.com) instances for easy deployment workflow. Contents of this repository equals to what you would have on the server in the directory /data/wordpress/.
+Generate more contents using the Fakerpress plugin.
+
 
 ## Documentation
 

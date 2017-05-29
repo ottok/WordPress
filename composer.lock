@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "content-hash": "4c7ecaace6ed353f530d55ce248d602b",
+    "content-hash": "a6a4a2fd65c0375414b0877af41337e9",
     "packages": [
         {
             "name": "aucor/dynamic-mo-loader",
@@ -207,6 +207,46 @@
                 "wordpress"
             ],
             "time": "2015-06-11T15:15:30+00:00"
+        },
+        {
+            "name": "jokkedk/webgrind",
+            "version": "v1.5.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/jokkedk/webgrind.git",
+                "reference": "f0b6f7e0e61fb303fd6d8c741571951e9a74960b"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/jokkedk/webgrind/zipball/f0b6f7e0e61fb303fd6d8c741571951e9a74960b",
+                "reference": "f0b6f7e0e61fb303fd6d8c741571951e9a74960b",
+                "shasum": ""
+            },
+            "type": "application",
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "BSD-3-Clause"
+            ],
+            "authors": [
+                {
+                    "name": "Joakim Nygård",
+                    "email": "joakim@scienta.dk",
+                    "homepage": "http://jokke.dk/"
+                },
+                {
+                    "name": "Jacob Oettinger",
+                    "email": "jacob@oettinger.dk",
+                    "homepage": "http://oettinger.dk/"
+                }
+            ],
+            "description": "Webgrind is a Xdebug profiling web frontend in PHP5. It implements a subset of the features of kcachegrind and installs in seconds and works on all platforms. For quick'n'dirty optimizations it does the job.",
+            "homepage": "https://github.com/jokkedk/webgrind",
+            "keywords": [
+                "Xdebug",
+                "debug",
+                "webgrind"
+            ],
+            "time": "2017-03-18T21:44:36+00:00"
         },
         {
             "name": "koodimonni-language/fi",
@@ -906,7 +946,7 @@
             "dist": {
                 "type": "zip",
                 "url": "https://downloads.wordpress.org/plugin/debug-bar.0.9.zip",
-                "reference": null,
+                "reference": "tags/0.9",
                 "shasum": null
             },
             "require": {
@@ -926,7 +966,7 @@
             "dist": {
                 "type": "zip",
                 "url": "https://downloads.wordpress.org/plugin/debug-bar-cron.0.1.3.zip",
-                "reference": null,
+                "reference": "tags/0.1.3",
                 "shasum": null
             },
             "require": {
@@ -946,7 +986,7 @@
             "dist": {
                 "type": "zip",
                 "url": "https://downloads.wordpress.org/plugin/debug-bar-slow-actions.0.8.3.zip",
-                "reference": null,
+                "reference": "tags/0.8.3",
                 "shasum": null
             },
             "require": {
@@ -966,7 +1006,7 @@
             "dist": {
                 "type": "zip",
                 "url": "https://downloads.wordpress.org/plugin/debug-bar-transients.0.5.zip",
-                "reference": null,
+                "reference": "tags/0.5",
                 "shasum": null
             },
             "require": {
@@ -974,6 +1014,26 @@
             },
             "type": "wordpress-plugin",
             "homepage": "https://wordpress.org/plugins/debug-bar-transients/"
+        },
+        {
+            "name": "wpackagist-plugin/fakerpress",
+            "version": "0.4.7",
+            "source": {
+                "type": "svn",
+                "url": "https://plugins.svn.wordpress.org/fakerpress/",
+                "reference": "trunk"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://downloads.wordpress.org/plugin/fakerpress.zip?timestamp=1475424579",
+                "reference": null,
+                "shasum": null
+            },
+            "require": {
+                "composer/installers": "~1.0"
+            },
+            "type": "wordpress-plugin",
+            "homepage": "https://wordpress.org/plugins/fakerpress/"
         },
         {
             "name": "wpackagist-plugin/google-analytics-dashboard-for-wp",
@@ -1006,7 +1066,7 @@
             "dist": {
                 "type": "zip",
                 "url": "https://downloads.wordpress.org/plugin/query-monitor.2.13.4.zip",
-                "reference": null,
+                "reference": "tags/2.13.4",
                 "shasum": null
             },
             "require": {
@@ -1026,7 +1086,7 @@
             "dist": {
                 "type": "zip",
                 "url": "https://downloads.wordpress.org/plugin/theme-check.20160523.1.zip",
-                "reference": null,
+                "reference": "tags/20160523.1",
                 "shasum": null
             },
             "require": {
