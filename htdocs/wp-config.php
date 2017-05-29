@@ -93,6 +93,9 @@ define( 'WP_POST_REVISIONS', 30 );
  */
 define( 'COOKIEHASH', getenv('CONTAINER') );
 
+/* Automatically activate our best plugins */
+define( 'WP_AUTO_ACTIVATE_PLUGINS', 'debug-bar' );
+
 /**
  * For developers: show verbose debugging output if not in production.
  */
